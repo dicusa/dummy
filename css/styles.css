@@ -39,3 +39,18 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+section {
+    margin-bottom: 2rem;
+}
+
+.medium-posts a, .github-projects a, .certificates a {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.medium-posts a:hover, .github-projects a:hover, .certificates a:hover {
+    text-decoration: underline;
+}
